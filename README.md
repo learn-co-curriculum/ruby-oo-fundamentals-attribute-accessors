@@ -39,5 +39,36 @@ jay_z.name
   => "Shawn Carter"
 ```
 
-The usage of macros is preferred over the explicit definition of setter and getter methods, unless you need to customize the implementation of a method, like in our previous lesson when we defined `.name` as returning and first and last name variable combined. 
+Let's compare a `Person` class that uses macros to one that uses explicit setter and getter methods: 
+
+#### Macros
+
+```ruby
+class Person
+  attr_writer :name
+  attr_reader :name
+
+end
+```
+
+#### Explicit Method Definitions
+
+```ruby
+class Person
+  
+  def name=(name)
+    @name = name
+  end
+
+  def name
+    @name
+  end
+end
+```
+
+#### Using Macros is Usually Better
+
+The usage of macros is preferred over the explicit definition of setter and getter methods, *unless you need to customize the implementation of a method*, like in our previous lesson when we defined `.name` as returning the first and last name variables combined. 
+
+To understand why, simply look at the code above. Which class would you rather write? The longer one, or the shorter one?
 
