@@ -94,3 +94,5 @@ We now have access to reader and writer methods from one macro!
 The usage of macros is preferred over the explicit definition of setter and getter methods, *unless you need to customize the implementation of a method*, like in our previous lesson when we defined `.name` as returning the first and last name variables combined.
 
 To understand why, simply look at the code above. Which class would you rather write? The longer one, or the shorter one?
+
+When opening up a class, it is hard to realize that all of those setters/getters are kinda fluff. You don't want to have to sift through all the kinda BS-y methods to try and find the goodness. `attr_accessor` and friends allow you to get a high level overview of the class at the very beginning.
