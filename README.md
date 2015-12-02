@@ -98,3 +98,5 @@ To understand why, simply look at the code above. Which class would you rather w
 When opening up a class, `attr_accessor` and friends allow you to get a high level overview of the class right from the start.
 
 As developers we spend more time reading rather then writing code, so it's important that the code we are reading is challenging, not the easy stuff.
+
+<a href='https://learn.co/lessons/ruby-oo-macros-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
