@@ -99,4 +99,4 @@ When opening up a class, `attr_accessor` and friends allow you to get a high lev
 
 As developers we spend more time reading rather than writing code, so it's important that the code we are reading is challenging, not the easy stuff.
 
-<a href='https://learn.co/lessons/ruby-oo-macros-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-oo-macros-readme' title='Macros and Abstraction'>Macros and Abstraction</a> on Learn.co and start learning to code for free.</p>
