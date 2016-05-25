@@ -7,9 +7,33 @@
 
 ## What is a Macro?
 
-A macro is any code that writes code for you. The implementation of macros is considered metaprogramming––the writing of programs that operate on other programs.
+Normally when you write a method you are manipulating and returning some kind of data.  This (kind of useless) method takes an integer and returns an integer:
 
-Implement macros to abstract away the manual, explicit definition of setter and getter methods in a Ruby class.
+```ruby
+def plus_three(num)
+  num + 3
+end
+```
+
+Ruby's `#map` method is called on an enumerable and returns an array:
+
+```ruby
+mantra = ["Don't", "Repeat", "Yourself"]
+
+mantra.map do |word|
+  word[0]
+end
+
+# => ["D", "R", "Y"] 
+```
+
+In Ruby a macro is like a method, just some code, that returns more code! This code will get executed along with all the other code you have written when you run your program.  In this lab we will be using a macro, again think of this as a method, to write the definitions of other methods, crazy!  
+
+The implementation of macros is considered metaprogramming––the writing of programs that operate on other programs. Metaprogramming is a powerful tool, it can make our lives easier by automating repetitive tasks or providing something like a mini-language inside of another programming language that has the benefits of being concise and descriptive. 
+
+If this sounds complicated, the answer is it can be––though it doesn't need to be. A danger of metaprogramming is that it can result in very hard to follow code that obscures what is actually happening.
+
+Below we'll implement macros to abstract away the manual, explicit definition of setter and getter methods in a Ruby class.
 
 ## Attribute Readers, Writers and Accessors
 
