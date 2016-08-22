@@ -125,6 +125,6 @@ As developers we spend more time reading rather than writing code, so it's impor
 
 ## Resources
 
-* [Video Review- Object Properties](https://github.com/learn-co-curriculum/oo-ruby-video-review-object-properties) 
+* [Video Review- Object Properties](https://www.youtube.com/watch?v=ab11lJJKm8M) 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-oo-macros-readme'>Object Accessors</a> on Learn.co and start learning to code for free.</p>
