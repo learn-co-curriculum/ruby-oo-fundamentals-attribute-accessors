@@ -29,9 +29,9 @@ end
 
 In Ruby a macro is like a method, just some code, that instead of returning a Ruby datatype returns more Ruby code! This code will get executed along with all the other code you have written when you run your program.  In this lab we will be using a macro, again think of this as a method, to write the definitions of other methods, crazy!  
 
-The implementation of macros is considered metaprogramming––the writing of programs that operate on other programs. Metaprogramming is a powerful tool, it can make our lives easier by automating repetitive tasks or providing something like a mini-language inside of another programming language that has the benefits of being concise and descriptive. 
+The implementation of macros is considered metaprogramming––the writing of programs that operate on other programs. Metaprogramming is a powerful tool. It can make our lives easier by automating repetitive tasks or providing something like a mini-language inside of another programming language that has the benefits of being concise and descriptive. 
 
-If this sounds complicated, the answer is it can be––though it doesn't need to be. A danger of metaprogramming is that it can result in very hard to follow code that obscures what is actually happening.
+If this sounds complicated, the answer is it can be—though it doesn't need to be. A danger of metaprogramming is that it can result in very hard to follow code that obscures what is actually happening.
 
 Below we'll implement macros to abstract away the manual, explicit definition of setter and getter methods in a Ruby class.
 
@@ -128,3 +128,5 @@ As developers we spend more time reading rather than writing code, so it's impor
 * [Video Review- Object Properties](https://www.youtube.com/watch?v=ab11lJJKm8M) 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-oo-macros-readme'>Object Accessors</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-oo-macros-readme'>Object Accessors</a> on Learn.co and start learning to code for free.</p>
