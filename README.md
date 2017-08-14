@@ -93,7 +93,7 @@ end
 ####Attribute Accessors
 If we know that we are going to be reading and writing to the `name` attribute on our `Person` class, we can use another macro called an attribute accessor.
 
-So this code:
+So this code...
 
 ```ruby
 class Person
@@ -103,7 +103,7 @@ class Person
 end
 ```
 
-Can now be written like this:
+...can now be written like this:
 
 ```ruby
 class Person
