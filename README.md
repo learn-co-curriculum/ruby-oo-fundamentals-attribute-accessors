@@ -37,7 +37,7 @@ Below we'll implement macros to abstract away the manual, explicit definition of
 
 ## Attribute Readers, Writers and Accessors
 
-In object-oriented Ruby, there is a strong convention to have a setter and a getter method that pertain to the same attribute. For example, a `.name` getter and a `.name=` setter on our Person class. Because this pattern is so common, we find ourself making these manual setter and getter definitions again and again. As Rubyists, we are lazy, and this is a virtue. If we can achieve the same result with less code, we'll do it.
+In object-oriented Ruby, there is a strong convention to have a setter and a getter method that pertain to the same attribute. For example, a `.name` getter and a `.name=` setter on our Person class. Because this pattern is so common, we find ourselves making these manual setter and getter definitions again and again. As Rubyists, we are lazy, and this is a virtue. If we can achieve the same result with less code, we'll do it.
 
 Check out the example below:
 
