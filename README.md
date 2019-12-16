@@ -119,7 +119,7 @@ The usage of macros is preferred over the explicit definition of setter and gett
 
 To understand why, simply look at the code above. Which class would you rather write? The longer one, or the shorter one?
 
-When opening up a class, `attr_accessor` and friends allow you to get a high level overview of the class right from the start.
+When opening up a class, `attr_accessor` (along with `attr_writer` and `attr_reader`) allow you to get a high level overview of the class right from the start.
 
 As developers we spend more time reading rather than writing code, so it's important that the code we write be clear, concise and eloquent. We want to be kind to our future selves (when we come back to the programs we've written) and to other developers who will work with our code. 
 
