@@ -90,7 +90,8 @@ class Person
 end
 ```
 
-####Attribute Accessors
+#### Attribute Accessors
+
 If we know that we are going to be reading and writing to the `name` attribute on our `Person` class, we can use another macro called an attribute accessor.
 
 So this code...
@@ -126,7 +127,3 @@ As developers we spend more time reading rather than writing code, so it's impor
 ## Resources
 
 * [Video Review- Object Properties](https://www.youtube.com/watch?v=ab11lJJKm8M) 
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-oo-macros-readme'>Object Accessors</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-oo-macros-readme'>Object Accessors</a> on Learn.co and start learning to code for free.</p>
