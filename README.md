@@ -1,4 +1,4 @@
-# Macros and Abstraction
+# Attribute Accessors
 
 ## Objectives
 
